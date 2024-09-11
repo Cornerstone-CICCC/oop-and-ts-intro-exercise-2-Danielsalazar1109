@@ -24,10 +24,16 @@ class Animal {
 
 class Dog extends Animal {
   // YOUR CODE HERE
+    speak() {
+      return `The dog barks`;
+  }
 }
 
 class Cat extends Animal {
   // YOUR CODE HERE
+    speak() {
+      return `The cat meows`;
+  }
 }
 
 
